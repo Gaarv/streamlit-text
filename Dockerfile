@@ -1,5 +1,7 @@
 FROM python:3.8
 
+ENV PORT=8501
+
 COPY app.py app.py
 
 COPY requirements.txt requirements.txt
